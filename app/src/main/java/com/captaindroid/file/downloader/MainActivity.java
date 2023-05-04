@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonOne.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "1", Toast.LENGTH_SHORT).show();
                                 textViewProgressOne.setText("");
@@ -304,7 +304,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonTwo.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "2", Toast.LENGTH_SHORT).show();
                                 textViewProgressTwo.setText("");
@@ -390,7 +390,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonThree.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "3", Toast.LENGTH_SHORT).show();
                                 textViewProgressThree.setText("");
@@ -476,7 +476,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonFour.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "4", Toast.LENGTH_SHORT).show();
                                 textViewProgressFour.setText("");
@@ -562,7 +562,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonFive.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "5", Toast.LENGTH_SHORT).show();
                                 textViewProgressFive.setText("");
@@ -649,7 +649,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonSix.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "6", Toast.LENGTH_SHORT).show();
                                 textViewProgressSix.setText("");
@@ -736,7 +736,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonSeven.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "7", Toast.LENGTH_SHORT).show();
                                 textViewProgressSeven.setText("");
@@ -823,7 +823,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonEight.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "8", Toast.LENGTH_SHORT).show();
                                 textViewProgressEight.setText("");
@@ -909,7 +909,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonNine.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "9", Toast.LENGTH_SHORT).show();
                                 textViewProgressNine.setText("");
@@ -995,7 +995,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonTen.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "10", Toast.LENGTH_SHORT).show();
                                 textViewProgressTen.setText("");
@@ -1081,7 +1081,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonEleven.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "11", Toast.LENGTH_SHORT).show();
                                 textViewProgressEleven.setText("");
@@ -1167,7 +1167,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonTwelve.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "12", Toast.LENGTH_SHORT).show();
                                 textViewProgressTwelve.setText("");
@@ -1253,7 +1253,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonThirteen.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "13", Toast.LENGTH_SHORT).show();
                                 textViewProgressThirteen.setText("");
@@ -1340,7 +1340,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonFourteen.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "14", Toast.LENGTH_SHORT).show();
                                 textViewProgressFourteen.setText("");
@@ -1427,7 +1427,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onError(Error error) {
+                            public void onError(Error error, int downloadId) {
                                 buttonFifteen.setText(R.string.start);
                                 Toast.makeText(getApplicationContext(), getString(R.string.some_error_occurred) + " " + "15", Toast.LENGTH_SHORT).show();
                                 textViewProgressFifteen.setText("");

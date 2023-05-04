@@ -242,7 +242,7 @@ public class DownloadRequest {
                     .execute(new Runnable() {
                         public void run() {
                             if (onDownloadListener != null) {
-                                onDownloadListener.onError(error);
+                                onDownloadListener.onError(error, downloadId);
                             }
                             finish();
                         }

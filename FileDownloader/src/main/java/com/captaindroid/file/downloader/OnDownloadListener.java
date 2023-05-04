@@ -24,6 +24,6 @@ public interface OnDownloadListener {
 
     void onDownloadComplete(String fileName);
 
-    void onError(Error error);
+    void onError(Error error, int downloadId);
 
 }
