@@ -22,7 +22,7 @@ package com.captaindroid.file.downloader;
 
 public interface OnDownloadListener {
 
-    void onDownloadComplete(String fileName);
+    void onDownloadComplete(String fileName, int downloadId);
 
     void onError(Error error, int downloadId);
 
