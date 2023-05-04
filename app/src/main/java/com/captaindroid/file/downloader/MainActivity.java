@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonOne.setEnabled(false);
                                 buttonCancelOne.setEnabled(false);
                                 buttonOne.setText(R.string.completed);
@@ -297,7 +297,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonTwo.setEnabled(false);
                                 buttonCancelTwo.setEnabled(false);
                                 buttonTwo.setText(R.string.completed);
@@ -383,7 +383,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonThree.setEnabled(false);
                                 buttonCancelThree.setEnabled(false);
                                 buttonThree.setText(R.string.completed);
@@ -469,7 +469,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonFour.setEnabled(false);
                                 buttonCancelFour.setEnabled(false);
                                 buttonFour.setText(R.string.completed);
@@ -555,7 +555,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonFive.setEnabled(false);
                                 buttonCancelFive.setEnabled(false);
                                 buttonFive.setText(R.string.completed);
@@ -642,7 +642,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonSix.setEnabled(false);
                                 buttonCancelSix.setEnabled(false);
                                 buttonSix.setText(R.string.completed);
@@ -729,7 +729,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonSeven.setEnabled(false);
                                 buttonCancelSeven.setEnabled(false);
                                 buttonSeven.setText(R.string.completed);
@@ -816,7 +816,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonEight.setEnabled(false);
                                 buttonCancelEight.setEnabled(false);
                                 buttonEight.setText(R.string.completed);
@@ -902,7 +902,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonNine.setEnabled(false);
                                 buttonCancelNine.setEnabled(false);
                                 buttonNine.setText(R.string.completed);
@@ -988,7 +988,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonTen.setEnabled(false);
                                 buttonCancelTen.setEnabled(false);
                                 buttonTen.setText(R.string.completed);
@@ -1074,7 +1074,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonEleven.setEnabled(false);
                                 buttonCancelEleven.setEnabled(false);
                                 buttonEleven.setText(R.string.completed);
@@ -1160,7 +1160,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonTwelve.setEnabled(false);
                                 buttonCancelTwelve.setEnabled(false);
                                 buttonTwelve.setText(R.string.completed);
@@ -1246,7 +1246,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonThirteen.setEnabled(false);
                                 buttonCancelThirteen.setEnabled(false);
                                 buttonThirteen.setText(R.string.completed);
@@ -1333,7 +1333,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonFourteen.setEnabled(false);
                                 buttonCancelFourteen.setEnabled(false);
                                 buttonFourteen.setText(R.string.completed);
@@ -1420,7 +1420,7 @@ public class MainActivity extends AppCompatActivity {
                         })
                         .start(new OnDownloadListener() {
                             @Override
-                            public void onDownloadComplete() {
+                            public void onDownloadComplete(String fileName) {
                                 buttonFifteen.setEnabled(false);
                                 buttonCancelFifteen.setEnabled(false);
                                 buttonFifteen.setText(R.string.completed);
